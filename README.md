@@ -1,22 +1,37 @@
-#foobar
- foobar is apython library for dealing with word pluralization
- #Installation
- use the package manager [pip] (http://www.google.com) to install foobar
- pip install foobar
+# Foobar
 
+Foobar is a Python library for dealing with word pluralization.
 
-  ``` python import foobar 
-  foobar.pluralize('word') #returns 'words'
-  foobar.pluralize('goose') #returns 'geese'
-  foobar.sigularize('phenomena') #returns 'phenomenon'  
-  ```
-#contributing
-pull requests are welcome. for major changes, please open an issue first to discuss what you would like to change.
+## Installation
 
-please make sure to update tests as appropriate
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-#license
-[MIT]
+```bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
 #image
 ![click](https://github.com/NoursinaKhaled/gitHub22/blob/master/train.png)
